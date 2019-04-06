@@ -1,5 +1,5 @@
-import express from "express";
-import helmet from "helmet";
+const express = require("express");
+const helmet = require("helmet");
 
 const app = express();
 
@@ -17,4 +17,4 @@ app.get("*", (req, res) => {
   );
 });
 
-export default app;
+module.exports = app;
