@@ -8,7 +8,7 @@ const app = express();
 // add some security-related headers to the response
 app.use(helmet());
 
-app.get("/api/val202", (req, res) => {
+app.get("*", (req, res) => {
   res.set("Content-Type", "application/json");
 
   request("https://val202.rtvslo.si/spored/", function(error, response, body) {
