@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "now-express-test",
+  "name": "slovenian-radio-api",
   "builds": [{ "src": "**/*.js", "use": "@now/node" }],
   "routes": [
     { "src": "/", "dest": "index.js" },
