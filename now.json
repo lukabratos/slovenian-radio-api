@@ -4,6 +4,7 @@
   "builds": [{ "src": "**/*.js", "use": "@now/node" }],
   "routes": [
     { "src": "/", "dest": "index.js" },
-    { "src": "/api/val202", "dest": "api/val202.js" }
+    { "src": "/api/val202", "dest": "api/val202.js" },
+    { "src": "/api/rmb", "dest": "api/rmb.js" }
   ]
 }
