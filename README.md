@@ -1,6 +1,6 @@
 # Slovenian Radio API 📻
 
-At this point, API provides information about todays schedule for various Slovenian radio stations.
+Currently, API provides todays on-air schedule for various Slovenian radio stations.
 
 ## List of supported radio stations:
 
