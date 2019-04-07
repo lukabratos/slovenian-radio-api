@@ -26,11 +26,21 @@ function parseScheduleTitle($) {
   const scheduleTitle = $("div.schedule-title");
 
   scheduleTitle.each(function() {
-    scheduleTitleList.push(
-      $(this)
-        .text()
-        .trim()
-    );
+    var title = $(this)
+      .text()
+      .trim();
+
+    // Remove any new lines in the string.
+    var sanitizedTitle = title.replace(/(\r\n|\n|\r)/gm, "");
+    // Some strings end with comma. Remove one if it exists.
+    if (sanitizedTitle.charAt(sanitizedTitle.length - 1) === ",") {
+      sanitizedTitle = sanitizedTitle.slice(0, -1);
+    }
+
+    // Replace multiple white spaces with -
+    sanitizedTitle = sanitizedTitle.replace(/ +(?= )/g, " -");
+
+    scheduleTitleList.push(sanitizedTitle);
   });
 
   return scheduleTitleList;
