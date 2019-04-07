@@ -12,6 +12,7 @@ Currently, API provides todays on-air schedule for various Slovenian radio stati
 
 ```
 [
+    ...
     {"time":"11.30","title":"Novice"},
     {"time":"11.38","title":"Obvestila"},
     ...
