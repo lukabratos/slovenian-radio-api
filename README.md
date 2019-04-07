@@ -4,9 +4,9 @@ At this point, API provides information about todays schedule for various Sloven
 
 ## List of supported radio stations:
 
-- [Val 202](https://slovenian-radio-api-git-master.lukabratos.now.sh/api/val202)
-- [Radio Prvi](https://slovenian-radio-api-git-master.lukabratos.now.sh/api/ra1)
-- [Radio Maribor](https://slovenian-radio-api-git-master.lukabratos.now.sh/api/rmb)
+- Val 202 - [API](https://slovenian-radio-api-git-master.lukabratos.now.sh/api/val202)
+- Radio Prvi - [API](https://slovenian-radio-api-git-master.lukabratos.now.sh/api/ra1)
+- Radio Maribor - [API](https://slovenian-radio-api-git-master.lukabratos.now.sh/api/rmb)
 
 ## Response
 
