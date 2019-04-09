@@ -7,5 +7,9 @@
     { "src": "/api/val202", "dest": "api/val202.js" },
     { "src": "/api/rmb", "dest": "api/rmb.js" },
     { "src": "/api/ra1", "dest": "api/ra1.js" }
-  ]
+  ],
+  "env": {
+    "USER": "@user",
+    "PASS": "@pass"
+  }
 }
