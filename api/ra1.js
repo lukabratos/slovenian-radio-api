@@ -10,6 +10,8 @@ app.use(helmet());
 function appendZeroIfNeeded(input) {
   if (input < 10) {
     return "0" + input;
+  } else {
+    return input;
   }
 }
 
